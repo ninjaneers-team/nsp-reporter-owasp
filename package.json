@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninjaneers/nsp-reporter-owasp.git"
+    "url": "git+https://github.com/ninjaneers-team/nsp-reporter-owasp/"
   },
   "keywords": [
     "nodesecurity",
@@ -25,9 +25,9 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dap/nsp-reporter-owasp/issues"
+    "url": "https://github.com/ninjaneers-team/nsp-reporter-owasp/issues"
   },
-  "homepage": "https://github.com/dap/nsp-reporter-owasp#readme",
+  "homepage": "https://github.com/ninjaneers-team/nsp-reporter-owasp#readme",
   "dependencies": {
     "nsp": "^3.0.0",
     "xmlbuilder": "^9.0.4"
