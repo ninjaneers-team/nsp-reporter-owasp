@@ -19,10 +19,7 @@
     "reporter",
     "owasp"
   ],
-  "author": {
-    "name": "Dennis Fricke",
-    "email": "dennis.fricke@ninjaneers.de"
-  },
+  "author": "Dennis Fricke <dennis.fricke@ninjaneers.de>",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ninjaneers-team/nsp-reporter-owasp/issues"
@@ -31,5 +28,6 @@
   "dependencies": {
     "nsp": "^3.0.0",
     "xmlbuilder": "^9.0.4"
-  }
+  },
+  "devDependencies": {}
 }

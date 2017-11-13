@@ -55,7 +55,7 @@ exports.check.success = function (result, args) {
         dependencies.push(dependency);
     });
 
-    var result = {
+    var xml = {
         analysis: {
             '@xmlns': 'https://jeremylong.github.io/DependencyCheck/dependency-check.1.6.xsd',
             scanInfo: {
@@ -70,7 +70,7 @@ exports.check.success = function (result, args) {
         }
     };
 
-    var xmlResult = builder.create(result, { encoding: 'utf-8', separateArrayItems: true });
+    var xmlResult = builder.create(xml, { encoding: 'utf-8', separateArrayItems: true });
     console.log(xmlResult.end({ pretty: true }));
 
 };
