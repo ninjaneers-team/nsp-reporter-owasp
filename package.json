@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ninjaneers-team/nsp-reporter-owasp#readme",
   "dependencies": {
+    "escape-html": "^1.0.3",
     "nsp": "^3.0.0",
     "xmlbuilder": "^9.0.4"
   },

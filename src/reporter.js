@@ -1,6 +1,7 @@
 'use strict';
 
 var builder = require('xmlbuilder');
+var escape = require('escape-html');
 
 exports.error = function (err, args) {
     console.error(err.message);
@@ -45,8 +46,8 @@ exports.check.success = function (result, args) {
                         cvssIntegrityImpact: 'NONE',
                         cvssAvailabilityImpact: 'PARTIAL',
                         severity: 'Low',
-                        description: element.overview + '||' + element.recommendation + ' vulnerable versions: ' + element.vulnerable_versions +
-                        ' patched_versions: ' + element.patched_versions
+                        description: escape(element.overview + '||' + element.recommendation + ' vulnerable versions: ' + element.vulnerable_versions +
+                        ' patched_versions: ' + element.patched_versions)
                     }
                 }]
             }
