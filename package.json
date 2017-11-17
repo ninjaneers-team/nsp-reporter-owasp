@@ -1,6 +1,6 @@
 {
   "name": "nsp-reporter-owasp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Summary-style reporter for nsp (Node Security Project), using owasp dependency check format",
   "main": "src/reporter.js",
   "engines": {
